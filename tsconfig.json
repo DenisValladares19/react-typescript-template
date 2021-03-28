@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "sourceMap": true,
+      "module": "esnext",
+      "target": "esnext",
+      "jsx": "react",
+      "allowJs": true,
+      "noEmit": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "lib": ["es6", "dom"],
+      "esModuleInterop": true,
+      "paths" : {
+        "@layout/*": ["src/layout/*"],
+        "@components/*": ["src/components/*"],
+        "@helpers/*": ["src/helpers/*"],
+        "@hooks/*": ["src/hooks/*"],
+        "@pages/*": ["src/pages/*"],
+      }
+    },
+    "include": [
+      "./src/**/*.tsx"
+    ]
+  }
